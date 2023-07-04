@@ -19,7 +19,7 @@ pid1=$!
 ./kissat/build/kissat dimacs_cnf_34_cpp.txt --unsat | tee bulky-cnf34-log.txt &
 pid2=$!
 ./kissat/build/kissat dimacs_cnf_33_black_cpp.txt --sat | tee bulky-cnf33-black-log.txt &
-pid2=$!
+pid3=$!
 wait $pid1
 wait $pid2
 wait $pid3
