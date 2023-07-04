@@ -23,4 +23,4 @@ pid2=$!
 wait $pid1
 wait $pid2
 wait $pid3
-python3 interpret-log.py
+python3 interpret-log.py | tee scores.txt
