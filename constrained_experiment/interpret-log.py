@@ -1,6 +1,7 @@
 import re
 import sys
 
+
 def solve(is_black):
     numbers = set()
     with open(f"bulky-cnf33{'-black' if is_black else ''}-log.txt", "r") as f:
@@ -30,11 +31,12 @@ def solve(is_black):
                 if literal_idx in numbers:
                     move_pos[turn] += 1 << bitpos
 
-    kifu = ""
+    score = "f5"
     for k, v in move_pos.items():
-        kifu += num2pos(v)
+        score += num2pos(v)
     print(f"{'33black' if is_black else '33'}")
-    print(f"kifu={kifu}")
+    print(f"score={score}")
+
 
 if __name__ == "__main__":
     solve(False)

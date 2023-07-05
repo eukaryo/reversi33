@@ -770,7 +770,7 @@ void make(const uint64_t threshold) {
 		);
 		BitVector64 popcount_moves = bv_popcount(all_moves, "popcount_moves" + _turn);
 
-		if ((!BLACK_ONLY_FLAG) || (turn % 2 == 0)) {
+		if ((!BLACK_ONLY_FLAG) || (turn % 2 == 1)) {
 			pop_move.push_back(
 				ifthenelse(
 					greater(popcount_moves, pop_move.back(), "tmp_pop_move_" + std::to_string(turn + 1)),

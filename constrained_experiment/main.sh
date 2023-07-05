@@ -3,7 +3,6 @@ git clone https://github.com/arminbiere/kissat.git -b sc2022-bulky
 cd kissat
 ./configure && make test
 cd ../
-rm dimacs-cnf-maker
 make
 ./dimacs-cnf-maker 33 &
 pid1=$!
