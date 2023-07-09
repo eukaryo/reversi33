@@ -1,0 +1,144 @@
+z3.get_version_string()='4.12.2'
+board: 33 or more moves, 33 or more empties: sat. elapsed time = 1 second(s)
+all_moves   = 0b1000111110011100101101001110001110000101001000000011010011111111
+bb_opponent = 0b0101000001000011010010000001100001001010000100011100101000000000
+bb_player   = 0b0010000000100000000000110000010000110000110011100000000100000000
+  A B C D E F G H
+1 . . . . . . . . 1
+2 * o . o . . o o 2
+3 o * * * o . * * 3  * = player's disc
+4 . o . o * * o . 4  o = opponent's disc
+5 . . * o o . . . 5  - = empty, illegal move
+6 * * . o . . o . 6  . = empty, legal move
+7 o o . . . * o . 7
+8 . . . . o * o . 8
+  A B C D E F G H
+board: 33 or more moves, 34 or more empties: sat. elapsed time = 2 second(s)
+all_moves   = 0b1011111110010000100110001000010111000011111100011001000110011111
+bb_opponent = 0b0000000001101110010000010110101000100000000010100100111001000000
+bb_player   = 0b0000000000000001001001100001000000011100000001000010000000100000
+  A B C D E F G H
+1 . . . . . * o . 1
+2 . o o o . * o . 2
+3 . o * o . . . . 3  * = player's disc
+4 . . * * * o . . 4  o = opponent's disc
+5 . o . o * o o . 5  - = empty, illegal move
+6 o * * . . * o . 6  . = empty, legal move
+7 * o o o . o o . 7
+8 . . . . . . - . 8
+  A B C D E F G H
+board: 33 or more moves, 35 or more empties: sat. elapsed time = 1 second(s)
+all_moves   = 0b1011000100111100011011111100001110000001010100011001000110111111
+bb_opponent = 0b0000101011000010000100000010110001100010000010100100111000000000
+bb_player   = 0b0000010000000001100000000001000000011100101001000010000000000000
+  A B C D E F G H
+1 . . . . . . - . 1
+2 . o o o . * o . 2
+3 . o * o . * . * 3  * = player's disc
+4 . o * * * o o . 4  o = opponent's disc
+5 . . o o * o . . 5  - = empty, illegal move
+6 . . . . o . . * 6  . = empty, legal move
+7 * o . . . . o o 7
+8 . o * o . . - . 8
+  A B C D E F G H
+board: 33 or more moves, 36 or more empties: sat. elapsed time = 7 second(s)
+all_moves   = 0b1111110110000001100110110010010011000001100000011111010110011111
+bb_opponent = 0b0000000001110110000000000100101000010000011101100000101001000000
+bb_player   = 0b0000000000001000011001000001000000101110000010000000000000100000
+  A B C D E F G H
+1 . . . . . * o . 1
+2 . o . o . . . . 2
+3 . o o * o o o . 3  * = player's disc
+4 . * * * o * . . 4  o = opponent's disc
+5 - o . o * . o - 5  - = empty, illegal move
+6 . . * . . * * . 6  . = empty, legal move
+7 . o o * o o o . 7
+8 . - . . . . . . 8
+  A B C D E F G H
+board: 33 or more moves, 37 or more empties: sat. elapsed time = 88 second(s)
+all_moves   = 0b1111111100011000100110010010010111000001100000011101011101111100
+bb_opponent = 0b0000000001100110000000000101001000001010011010100010100000000000
+bb_player   = 0b0000000010000001011001100000100000110100000101000000000000000000
+  A B C D E F G H
+1 - - . . . . . - 1
+2 . . . o . o . . 2
+3 . o * o * o o . 3  * = player's disc
+4 . o * o * * . . 4  o = opponent's disc
+5 . o . * o . o - 5  - = empty, illegal move
+6 . * * . . * * . 6  . = empty, legal move
+7 * o o . . o o * 7
+8 . . . . . . . . 8
+  A B C D E F G H
+board: 33 or more moves, 38 or more empties: sat. elapsed time = 43 second(s)
+all_moves   = 0b1110111010001010100100101010001110100100100110011000000111111111
+bb_opponent = 0b0000000001010100010001000101000000001010010000000110111000000000
+bb_player   = 0b0000000000100000001010000000110001010000001001100001000000000000
+  A B C D E F G H
+1 . . . . . . . . 1
+2 . o o o * o o . 2
+3 . * * . . * o . 3  * = player's disc
+4 - o . o * . * . 4  o = opponent's disc
+5 . . * * o . o . 5  - = empty, illegal move
+6 - . o * . * o . 6  . = empty, legal move
+7 - . o . o * o . 7
+8 - . . . - . . . 8
+  A B C D E F G H
+board: 33 or more moves, 39 or more empties: unsat. elapsed time = 18017 second(s)
+board: 34 or more moves, 34 or more empties: sat. elapsed time = 4 second(s)
+all_moves   = 0b1111111110000001110010011000010110000101100101001011110011001111
+bb_opponent = 0b0000000001111010000100100100001000011010011010000100001100010000
+bb_player   = 0b0000000000000100001001000011100001100000000000110000000000100000
+  A B C D E F G H
+1 . . . . o * . . 1
+2 o o . . . . o . 2
+3 * * . o . o o . 3  * = player's disc
+4 . o . o o * * . 4  o = opponent's disc
+5 . o . * * * o . 5  - = empty, illegal move
+6 . o * . o * . . 6  . = empty, legal move
+7 . o * o o o o . 7
+8 . . . . . . . . 8
+  A B C D E F G H
+board: 34 or more moves, 35 or more empties: sat. elapsed time = 17 second(s)
+all_moves   = 0b1011111110000001100100111110000111100011100100111000111010101100
+bb_opponent = 0b0000000001011110010000000000111000010000010001000101000100000010
+bb_player   = 0b0100000000100000001011000001000000001100001010000010000001000001
+  A B C D E F G H
+1 * o . . - . * . 1
+2 o . . . o * o . 2
+3 . . o * . * o . 3  * = player's disc
+4 . . * * o . . . 4  o = opponent's disc
+5 . o o o * . . . 5  - = empty, illegal move
+6 . . * * . * o . 6  . = empty, legal move
+7 . o o o o * o . 7
+8 . . . . . . * . 8
+  A B C D E F G H
+board: 34 or more moves, 36 or more empties: sat. elapsed time = 79 second(s)
+all_moves   = 0b1111111110000001100110010010010111000101100010011001000111110111
+bb_opponent = 0b0000000001110110000000100101000000011010010000100110101000000000
+bb_player   = 0b0000000000001000011001000000101000100000001101000000010000000000
+  A B C D E F G H
+1 . . . - . . . . 1
+2 . o * o . o o . 2
+3 . o * . * * o . 3  * = player's disc
+4 . o . o o * . . 4  o = opponent's disc
+5 . * . * o . o - 5  - = empty, illegal move
+6 . o * . . * * . 6  . = empty, legal move
+7 . o o * o o o . 7
+8 . . . . . . . . 8
+  A B C D E F G H
+board: 34 or more moves, 37 or more empties: sat. elapsed time = 33 second(s)
+all_moves   = 0b0111011111010001100010011100010100100101100110011000000111111111
+bb_opponent = 0b0000000000101010011000100000101001010000000000100111011000000000
+bb_player   = 0b0000000000000100000101000011000000001010011001000000100000000000
+  A B C D E F G H
+1 . . . . . . . . 1
+2 . o o * o o o . 2
+3 . o * . . * * . 3  * = player's disc
+4 . * . * o . o - 4  o = opponent's disc
+5 . o . o * * . . 5  - = empty, illegal move
+6 . o * . * o o . 6  . = empty, legal move
+7 . o * o . o . . 7
+8 . . . - . . . - 8
+  A B C D E F G H
+board: 34 or more moves, 38 or more empties: unsat. elapsed time = 722 second(s)
+board: 35 or more moves, 35 or more empties: unsat. elapsed time = 55 second(s)
